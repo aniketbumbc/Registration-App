@@ -3,11 +3,11 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "node server.js",    
+    "start": "node server.js",   
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "build:prod": "ng build --prod",
+    "build:": "ng build --prod",
     "heroku-postbuild": "npm run build:prod"
   },
   "private": true,
